@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
         super.onCreate(savedInstanceState)
 
+        today is good day
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
