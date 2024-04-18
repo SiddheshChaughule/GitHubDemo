@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        Today is good day
+
         setSupportActionBar(binding.toolbar)
 
         println("Experimental")
